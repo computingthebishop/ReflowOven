@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# PS1440P02BT
+#
+DEF PS1440P02BT LS 0 40 Y N 1 L N
+F0 "LS" -50 250 50 H V L BNN
+F1 "PS1440P02BT" -50 -325 50 H V L BNN
+F2 "BUZZER_PS1440P02BT" 0 0 50 H I L BNN
+F3 "PS1440P02BT" 0 0 50 H I L BNN
+F4 "Audio Indicator Buzzer Piezo 3Vo-p Pin Through Hole" 0 0 50 H I L BNN
+F5 "https://www.digikey.es/product-detail/en/tdk-corporation/PS1440P02BT/445-5242-1-ND/2236832?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F6 "445-5242-1-ND" 0 0 50 H I L BNN
+F7 "SOP-8 TDK" 0 0 50 H I L BNN
+F8 "TDK" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -125 75 -125 -75 N
+P 2 0 0 10 -125 -75 -100 -75 N
+P 2 0 0 10 0 -75 0 75 N
+P 2 0 0 10 -125 75 -100 75 N
+P 2 0 0 10 0 -75 100 -200 N
+P 2 0 0 10 100 -200 100 200 N
+P 2 0 0 10 0 75 100 200 N
+P 2 0 0 6 -100 -100 -100 -75 N
+P 2 0 0 10 -100 -75 0 -75 N
+P 2 0 0 6 -100 100 -100 75 N
+P 2 0 0 10 -100 75 0 75 N
+X 2 2 -100 -200 100 U 40 40 0 0 P 
+X 1 1 -100 200 100 D 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

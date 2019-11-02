@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MAC228A4G
+#
+DEF BT137 Q 0 40 N N 1 L N
+F0 "Q" -450 200 50 H V L BNN
+F1 "MAC228A4G" -450 -200 50 H V L BNN
+F2 "TO254P1028X482X1968-3" 0 0 50 H I L BNN
+F3 "TO-220 ON Semiconductor" 0 0 50 H I L BNN
+F4 "Littelfuse Inc." 0 0 50 H I L BNN
+F5 "MAC228A4G-ND" 0 0 50 H I L BNN
+F6 "Thyristor TRIAC 200V 80A 3-Pin_3+Tab_ TO-220AB Bulk" 0 0 50 H I L BNN
+F7 "MAC228A4G" 0 0 50 H I L BNN
+F8 "https://www.digikey.es/product-detail/en/littelfuse-inc/MAC228A4G/MAC228A4G-ND/1477045?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -100 110 -40 20 N
+P 2 0 0 10 -40 20 10 110 N
+P 2 0 0 10 10 110 -100 110 N
+P 2 0 0 10 40 110 10 110 N
+P 2 0 0 10 -10 20 40 110 N
+P 2 0 0 10 40 110 100 20 N
+P 2 0 0 10 100 20 0 20 N
+P 2 0 0 10 0 20 -10 20 N
+P 2 0 0 10 40 110 100 110 N
+P 2 0 0 6 -75 20 -100 0 N
+P 2 0 0 10 -40 20 -75 20 N
+P 2 0 0 10 -75 20 -100 20 N
+P 2 0 0 10 -40 20 -10 20 N
+P 2 0 0 6 0 0 0 20 N
+X MT1 1 0 -100 100 U 40 40 0 0 P 
+X MT2 2 0 200 100 D 40 40 0 0 P 
+X G 3 -200 0 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

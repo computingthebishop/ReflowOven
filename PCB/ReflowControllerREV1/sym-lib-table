@@ -1,3 +1,10 @@
 (sym_lib_table
   (lib (name ReflowController)(type Legacy)(uri ${KIPRJMOD}/ReflowController.lib)(options "")(descr ""))
+  (lib (name arduino-pro-mini)(type Legacy)(uri ${KIPRJMOD}/arduino-pro-mini.lib)(options "")(descr ""))
+  (lib (name MOC3020)(type Legacy)(uri ${KIPRJMOD}/MOC3020.lib)(options "")(descr ""))
+  (lib (name MAX31855KASA_T)(type Legacy)(uri ${KIPRJMOD}/MAX31855KASA_T.lib)(options "")(descr ""))
+  (lib (name H11AA1-X007T)(type Legacy)(uri ${KIPRJMOD}/H11AA1-X007T.lib)(options "")(descr ""))
+  (lib (name Buzzer)(type Legacy)(uri ${KIPRJMOD}/Buzzer.lib)(options "")(descr ""))
+  (lib (name BT137)(type Legacy)(uri ${KIPRJMOD}/BT137.lib)(options "")(descr ""))
+  (lib (name MAX6675ISA_)(type Legacy)(uri ${KIPRJMOD}/MAX6675ISA_.lib)(options "")(descr ""))
 )
