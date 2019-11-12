@@ -330,7 +330,7 @@
       (xy -0.44865 -3.176558)) (layer F.SilkS) (width 0.01))
   )
 
-  (module CTB_Logo:12v220 (layer F.Cu) (tedit 5DBDED08) (tstamp 5DBCD837)
+  (module CTB_Logo:12v220 (layer F.Cu) (tedit 5DCB2DC5) (tstamp 5DBCD837)
     (at 246.07774 113.74882 180)
     (path /5D173F24)
     (fp_text reference J5 (at 3.57124 -1.72974) (layer F.SilkS)
@@ -345,7 +345,7 @@
     (fp_text user + (at 22.98446 -2.66446) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user AC (at 2.54 -5.08) (layer F.SilkS)
+    (fp_text user AC (at 2.54 -14.52118) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.54 0) (end -2.54 -20.32) (layer F.SilkS) (width 0.12))
@@ -358,9 +358,9 @@
       (net 52 "Net-(J5-Pad4)"))
     (pad 3 thru_hole circle (at 25.4 -12.7 180) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 7 GND))
-    (pad 2 thru_hole circle (at 0 -17.78 180) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at -0.508 -17.78 180) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 40 AC2_IN))
-    (pad 1 thru_hole circle (at 0 -12.7 180) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -0.508 -12.7 180) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 41 AC1_IN))
   )
 
@@ -835,11 +835,6 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/3DModels/Terminal5mmx2.stp
-      (offset (xyz -3 -3.5 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 90))
-    )
   )
 
   (module TerminalBlock:TerminalBlock_bornier-2_P5.08mm (layer F.Cu) (tedit 59FF03AB) (tstamp 5DBC7E7F)
@@ -875,14 +870,9 @@
     (pad 1 thru_hole rect (at 0 0 90) (size 3 3) (drill 1.52) (layers *.Cu *.Mask)
       (net 41 AC1_IN))
     (model ${KISYS3DMOD}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl
-      (offset (xyz 2.54 0 0))
+      (offset (xyz 2.539999961853027 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
-    )
-    (model ${KIPRJMOD}/3DModels/Terminal5mmx2.stp
-      (offset (xyz -3 -3.5 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 90))
     )
   )
 
@@ -1156,11 +1146,6 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/3DModels/SOIC-8_3,9x4,9.STEP
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 -90))
-    )
   )
 
   (module Package_DIP:DIP-6_W7.62mm_LongPads (layer F.Cu) (tedit 5A02E8C5) (tstamp 5DBDB8BB)
@@ -1168,7 +1153,7 @@
     (descr "6-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads")
     (path /5D13508D)
-    (fp_text reference U1 (at 3.81 -2.33) (layer F.SilkS)
+    (fp_text reference U1 (at 1.27 -3.302) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value H11AA1-X007T (at 3.81 7.41) (layer F.Fab)
@@ -1314,11 +1299,6 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
-    )
-    (model ${KIPRJMOD}/3DModels/Arduino_nano.STEP
-      (offset (xyz 0 0 2))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 90))
     )
   )
 
@@ -1638,7 +1618,7 @@
     (descr "6-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /5D14A7D1)
-    (fp_text reference IC1 (at 6.096 7.366) (layer F.SilkS)
+    (fp_text reference IC1 (at 6.096 -2.794) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MOC3020 (at 3.81 7.41) (layer F.Fab)

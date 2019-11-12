@@ -1,4 +1,4 @@
-16313046056166399
+16320915769846430
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2170,12 +2170,47 @@ CTB_Logo
 5
 5
 CTB_Logo
+C_Elec_4.7uF
+SMD capacitor, aluminum electrolytic nonpolar, 4.0x5.8mm
+capacitor electrolyic nonpolar
+0
+2
+2
+CTB_Logo
+Crystal_SMD_ECS_CSM3X-2Pin_7.6x4.1mm
+http://www.ecsxtal.com/store/pdf/CSM-3X.pdf
+Crystal CSM-3X
+0
+2
+2
+CTB_Logo
+ESP-12F
+Wi-Fi Module, http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf
+Wi-Fi Module
+0
+22
+22
+CTB_Logo
 KicadCTBLogo
 
 
 0
 0
 0
+CTB_Logo
+TS5220A
+Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
+SPST Tactile Switch
+0
+4
+2
+CTB_Logo
+USB_male
+http://cnctech.us/pdfs/1001-011-01101.pdf
+USB-A
+0
+6
+5
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
