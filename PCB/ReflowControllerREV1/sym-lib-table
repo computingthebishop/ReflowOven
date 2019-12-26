@@ -7,4 +7,5 @@
   (lib (name Buzzer)(type Legacy)(uri ${KIPRJMOD}/Buzzer.lib)(options "")(descr ""))
   (lib (name BT137)(type Legacy)(uri ${KIPRJMOD}/BT137.lib)(options "")(descr ""))
   (lib (name MAX6675ISA_)(type Legacy)(uri ${KIPRJMOD}/MAX6675ISA_.lib)(options "")(descr ""))
+  (lib (name ReflowControllerREV1-rescue)(type Legacy)(uri ${KIPRJMOD}/ReflowControllerREV1-rescue.lib)(options "")(descr ""))
 )

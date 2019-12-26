@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ReflowControllerREV1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1173,4 +1172,8 @@ F 3 "~" H 8200 3500 50  0001 C CNN
 $EndComp
 Connection ~ 8200 3350
 NoConn ~ 4550 3750
+Entry Wire Line
+	200  4550 300  4650
+Entry Wire Line
+	200  4550 300  4650
 $EndSCHEMATC
